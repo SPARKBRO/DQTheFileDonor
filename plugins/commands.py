@@ -177,7 +177,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/SPA4KBRO")
                          ]
                         ]
                     )
@@ -219,7 +219,7 @@ async def start(client, message):
                 except Exception as e:
                     logger.exception(e)
                     continue
-            elif msg.empty:
+            elif msg.empty: 
                 continue
             else:
                 try:
@@ -248,7 +248,7 @@ async def start(client, message):
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/SPA4KBRO")
                      ]
                     ]
                 )
@@ -291,7 +291,7 @@ async def start(client, message):
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/SPA4KBRO")
              ]
             ]
         )
